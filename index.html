@@ -1,28 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-  <body>
-    “Hello World, we are software developers!”
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-  </body>
-</html>
+<div id="main">
+  <header id="header">
+    <img id="header-img" src="https://i.ytimg.com/vi/HSQg8HLOyNA/maxresdefault.jpg" alt="Image from sandwich.">
+      <nav id="nav-bar">
+        <a href="#video" class="nav-link"> what do you want to eat </a>
+       <a href="#email" class="nav-link">Sign Up for Our Newsletter</a>
+       <a href="#buy" class="nav-link">Buy a sandwish</a>
+      </nav>
+       <h1>restaurant</h1>
+  </header>
+  <div id="body">  
+    <h2 id="h2about">About Us:</h2>
+    <div id="aboutus">
+      <ul id="aboutuslist">
+        <li>We are a restaurant established in 2000.</li>
+        <li>We have all sandwiches.</li>
+        <li>We deliver our products on time.</li>
+        <li>We care about customer service.
+    </div>
+    <h2 id="h2how">what do you want to eat:</h2> 
+    <iframe id="video" src="https://www.youtube.com/watch?v=mc-1msYF8Xo" name="iframe" height="250" width="400" allowfullscreen></iframe>
+   <h2 id="h2email">Sign Up for Our Newsletter:</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">     
+      <label id="email-label" for="email">Email:</label>
+     <input id="email" name="email" type="email" placeholder="Email"><br>
+      <input id="submit" type="submit" value="Sign Up">
+      <div id="purchases">
+      <h2 id="h2buy">Buy a sandwich:</h2>
+      <div id="buy">
+        <div id="grand sandwich" class="product">
+          <h3>Grand sandwich </h3>
+          <img id="grandsandwichpic" src="https://i.ytimg.com/vi/HSQg8HLOyNA/maxresdefault.jpg" alt="Image from sandwich.">
+          <h4>$5, 500</h4><h4>more spicy</h4><h4>Larger, richer taste</h4>
+          <button>More Information</button>
+        </div>
+      </div>
+      </div>
+    </form> 
+  </div>  
+</div>
